@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<!-- Header Section -->
+<header>
+    <h1>My Portfolio</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- About Me Section -->
+<section id="about">
+    <h2>About Me</h2>
+    <p> Detail-oriented and motivated Software Engineer in Test with a strong foundation in Java and C#,
+        seeking to leverage my skills and transition into a Software Development Engineer role.
+        Currently enhancing my expertise in computer science fundamentals while actively collaborating
+        with cross-functional teams at Crisis Prevention Institute. I am passionate about developing innovative
+        solutions and am open to new ideas, which allows me to adapt quickly to changing environments and technologies.
+        My commitment to continuous learning drives me to contribute effectively to product enhancements that positively impact user experience.</p>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+        <h3>Project 1: Text Compression Algorithm </h3>
+        <p> Developed a utility that efficiently decompresses data from compressed formats back to their original state.
+            The project demonstrates my understanding of file handling, data structures,
+            and algorithm implementation for data compression and decompression.</p>
+        <a href="https://github.com/AAdeliya/Compression-main/blob/main/src/Decompressor.java" target="_blank">View Project</a>
+    </div>
+    <div class="project">
+        <h3>Project 2: Tic Tac Toe Game </h3>
+        <p>
+            An engaging Tic-Tac-Toe game built with the MVP design pattern, offering customizable board sizes and win conditions.
+            It includes efficient, optimized algorithms for fast and seamless win detection.</p>
+        <a href="https://github.com/AAdeliya/CodingTasks/tree/main/Game" target="_blank">View Project on GitHub</a>
+    </div>
+
+    <div class="project">
+        <h3>Project 3: Cache Implementation</h3>
+        <p>Implemented Cache Implementation with Singleton, Builder, Observer, and Strategy Design Patterns. Cache system with support for multiple eviction strategies like LRU (Least Recently Used) and FIFO (First In, First Out).
+            The design leverages four core design patterns to provide flexibility and maintainability.</p>
+        <a href="https://github.com/AAdeliya/DesignPatterns_CSClass" target="_blank">View Project on GitHub</a>
+    </div>
+
+    <div class="project">
+        <h3>Project 4: File-Based Data Repository</h3>
+        <p>Designed a file-based data repository that supports CRUD operations for various entities using a repository pattern.</p>
+        <a href="https://github.com/AAdeliya/ZARADATABASE/tree/main/src/main/java/zara/org" target="_blank">View Project on GitHub</a>
+    </div>
+
+    <div class="project">
+        <h3>Project 5: Parser</h3>
+        <p>This project demonstrates foundational concepts in compiler design, including lexical analysis, parsing, and expression evaluation,
+            making it a valuable resource for understanding basic parsing techniques in Java.</p>
+        <a href="https://github.com/AAdeliya/Parser" target="_blank">View Project on GitHub</a>
+    </div>
+
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <h2>Contact</h2>
+    <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+    <p id="form-message"></p>
+
+    <p>Email: <a href="mailto:adel.sdet2@gmail.com">adel.sdet2@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/adeliya-jaxybayeva-sdet3103/" target="_blank">[LinkedIn Profile]</a></p>
+</section>
+
+<!-- Modal Structure -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="modal-title"></h2>
+        <p id="modal-description"></p>
+        <a id="modal-link" href="#" target="_blank">View on GitHub</a>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>© 2024 Adeliya Jaxybayeva </p>
+</footer>
+
+<!-- Link to external JavaScript file -->
+<script src="main.js"></script>
+</body>
+
+</html>
